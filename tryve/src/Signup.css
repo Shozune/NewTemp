@@ -1,0 +1,55 @@
+.background {
+  background: url('/background.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 350px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo-leaf {
+  height: 25px;
+  vertical-align: middle;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.primary-btn {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+}
