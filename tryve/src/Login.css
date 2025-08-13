@@ -7,24 +7,27 @@
   align-items: center;
 }
 
-.card {
+.login-card {
   background: white;
   border-radius: 20px;
   padding: 2rem;
   width: 350px;
+  height: 400px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.logo-text {
-  font-size: 2rem;
-  font-weight: bold;
+
+.login-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
-.logo-leaf {
-  height: 25px;
+.login-logo {
+  height: 100px;
   vertical-align: middle;
 }
-
 input[type="email"],
 input[type="password"] {
   width: 100%;
